@@ -1,3 +1,14 @@
 body {
-    background: #a1dae3 url("../media/webpacklogo.png") repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header img {
+    height: 80px;
+}
+
+.nav {
+    display: block;
+    background-color: rgb (237, 167, 137);
 }

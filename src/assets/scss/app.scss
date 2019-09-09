@@ -1,14 +1,99 @@
 body {
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: rgb(238, 167, 147);
 }
 
-header img {
-    height: 80px;
+#landingcontainer {
+    text-align: center;
+    margin: 100px auto;
+    padding: 50px;
+    width: 50%;
 }
 
-.nav {
-    display: block;
-    background-color: rgb (237, 167, 137);
+header {
+    background: rgb(255, 232, 225);
+    padding: 1in;
+}
+
+nav {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+}
+
+nav ul {
+    list-style: none;
+    padding: 10;
+    margin: 10;
+}
+
+nav li {
+    float: left;
+    text-align: center;
+}
+
+a:hover {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    background: rgb(255, 232, 225);
+    background: -moz-linear-gradient(270deg, rgb(255, 232, 225) 46%, rgb(156, 71, 46) 70%);
+    background: -webkit-linear-gradient(270deg, rgb(255, 232, 225) 46%, rgb(156, 71, 46) 70%);
+    background: -o-linear-gradient(270deg, rgb(255, 232, 225) 46%, rgb(156, 71, 46) 70%);
+    background: -ms-linear-gradient(270deg, rgb(255, 232, 225) 46%, rgb(156, 71, 46) 70%);
+    background: linear-gradient(0deg, rgb(255, 232, 225) 46%, rgb(156, 71, 46) 70%);
+}
+
+mark {
+    float: right;
+    background-color: transparent;
+}
+
+main {
+    text-align: center;
+    margin: 70px auto;
+    padding: 70px;
+    width: 50%;
+}
+
+p {
+    font-size: 50px;
+    color: #13442b;
+    margin: 10px;
+}
+
+section h1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+}
+
+section img {
+    padding: 10px;
+    align-content: center;
+}
+
+article img {
+    float: left;
+    align-self: auto;
+    padding: 20px;
+    text-align: justify;
+    margin: 0;
+}
+
+.article img {
+    float: right;
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+}
+
+a {
+    display: inline-block;
+    margin: 20px 10px;
+    transition: ease 0.9s all;
+}
+
+footer {
+    background: rgb(255, 208, 194);
 }
